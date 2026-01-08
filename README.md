@@ -9,6 +9,8 @@
     eas logout
 
 # Build from eas
-        eas build --profile preview --platform android
+        eas build -p android --profile preview
 
-        eas build --platform android
+        eas build --profile development --platform android
+
+        eas build -p android --profile production
