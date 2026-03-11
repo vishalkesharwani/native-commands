@@ -15,4 +15,6 @@
 
         eas build -p android --profile production
 
+        eas build -p ios --profile preview
+
         eas build -p ios --profile production
